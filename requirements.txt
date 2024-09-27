@@ -1,0 +1,13 @@
+openai==0.27
+genai
+langchain
+langchain-anthropic
+langchain-openai
+langchain-google-genai
+google-generativeai
+requirements
+streamlit
+PyMuPDF
+python-docx
+requests
+streamlit-option-menu
