@@ -6,6 +6,7 @@ import json
 import uuid
 
 # OpenAI API Key
+#OPEN_API_KEY = "s-proj-thQ5-8EiGewCXd2h0Iyx5ueJoS3xMHlrdEaCx1p0rXrmID_vsUTSIIBfb8fLgiu8ALk_y2IpuYT3BlbkFJy0lX_tVr9ZASgYYuQFOe7K8feFWYJSE7trupHDGcCBw3yWr1vrJ7MQEabNmhglsPdE5mRFAewA"
 openai.api_key = OPEN_API_KEY
 
 # Generate a unique session ID for each session
