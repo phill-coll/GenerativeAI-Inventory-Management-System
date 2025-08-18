@@ -5,6 +5,7 @@ from datetime import datetime
 import json
 import uuid
 
+
 # OpenAI API Key
 #OPEN_API_KEY = "s-proj-thQ5-8EiGewCXd2h0Iyx5ueJoS3xMHlrdEaCx1p0rXrmID_vsUTSIIBfb8fLgiu8ALk_y2IpuYT3BlbkFJy0lX_tVr9ZASgYYuQFOe7K8feFWYJSE7trupHDGcCBw3yWr1vrJ7MQEabNmhglsPdE5mRFAewA"
 openai.api_key = OPEN_API_KEY
@@ -175,3 +176,4 @@ if prompt := st.chat_input("Ask a question about medicine, prescriptions, or inv
 
     # Save conversation for the current session
     save_conversation(st.session_state["messages"])
+
